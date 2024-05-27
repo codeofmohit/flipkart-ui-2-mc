@@ -1,0 +1,38 @@
+/* using roboto google font  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.chatApp {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.chat {
+  display: flex;
+  justify-content: space-around;
+}
+
+.chatList {
+  display: flex;
+  flex-direction: column;
+}
+
+.chatItem {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+}
+
+.chatItem > .left {
+  margin-right: 1rem;
+}
+
+.chatItem > .left > img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
