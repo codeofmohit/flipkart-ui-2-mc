@@ -36,3 +36,15 @@ body {
   height: 25px;
   border-radius: 50%;
 }
+
+.chatListBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.filterList > input {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  width: 100%;
+}
