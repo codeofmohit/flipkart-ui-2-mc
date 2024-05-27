@@ -7,14 +7,11 @@ const ChatItem = ({
   messageListState,
 }) => {
   const onChatItemClick = () => {
-    if (messageListState.length > 0) {
-      setMessageList(null);
-      if (messageList.length > 0) {
-        setMessageList(messageList);
-      }
-      if (messageList.length === 0) {
-        setMessageList([]);
-      }
+    setMessageList(null);
+    if (messageList.length > 0) {
+      setMessageList(messageList);
+    } else {
+      setMessageList([]);
     }
   };
 

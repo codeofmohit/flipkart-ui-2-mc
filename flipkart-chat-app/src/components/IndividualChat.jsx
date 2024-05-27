@@ -1,10 +1,11 @@
-import { useState } from "react";
-
 const IndividualChat = ({ messages }) => {
-  const [noMsg, setNoMsg] = useState(null);
-
   if (!messages) {
+    console.log("no message");
     return;
+  }
+
+  if (messages.length == 0) {
+    console.log("no message!");
   }
 
   console.log(messages);
